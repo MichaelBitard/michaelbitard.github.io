@@ -206,7 +206,6 @@ hr.spacer {
 #header ul#menu li a:hover {
     color: #555;
     border-bottom: 2px solid #e3e3e3;
-    border-margin: 10px;
 }
 
 #header ul#menu li.active a {
