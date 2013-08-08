@@ -57,11 +57,11 @@ function setupMenu() {
 }
 
 function setupNetworks() {
-    $(".networks").children('li:nth-child(3n+3)').addClass('last');
-    $(".networks").children('li').children('a').children(".content").animate({
+    var networks = $(".networks");
+    networks.children('li').children('a').children(".content").animate({
         marginLeft: 1
     }, 1);
-    $(".networks").children('li').hover(function () {
+    networks.children('li').hover(function () {
         $(this).children('a').children(".background").fadeIn(150);
         $(this).children('a').children(".content").animate({
             marginLeft: 5
@@ -75,16 +75,21 @@ function setupNetworks() {
 }
 
 function scrollTo(href, direct) {
+    var menuId;
+    var menuIndex;
+    var contentItem_width;
+    var scrollToPos;
     if (href != activeMenu) {
         if (scrollerComplete) {
             activeMenu = href;
             $("#menu").children().removeClass('active');
             $("a[href=" + href + "]").parent().addClass('active');
             menuId = href.split('#');
-            menuIndex = $(".contentitem[id='menu_" + menuId[1] + "']").index();
+            var contentItem = $(".contentitem[id='menu_" + menuId[1] + "']");
+            menuIndex = contentItem.index();
             contentItem_width = $(".contentitem").width();
             scrollToPos = -((menuIndex * contentItem_width) + (menuIndex * 30));
-            document.title = $(".contentitem[id='menu_" + menuId[1] + "']").children('.pagetitle').text();
+            document.title = contentItem.children('.pagetitle').text();
             if (scrollToPos <= 0) {
                 scrollerComplete = 0;
                 if (direct) {
