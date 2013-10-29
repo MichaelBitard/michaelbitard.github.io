@@ -3,7 +3,7 @@ var activeMenu;
 var iexplorer;
 
 $(document).ready(function () {
-    if ($(this).width() > 800) {
+    if ($(this).width() > 640) {
         // call supersize method
         $('#vcard').fadeIn(200);
         setupStage();

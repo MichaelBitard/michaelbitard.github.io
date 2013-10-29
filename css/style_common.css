@@ -1,0 +1,74 @@
+@import "reset.css";
+
+body {
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #000 url(../images/vcard/wrapper.jpg) center
+}
+
+a {
+    color: #6aa2c5
+}
+
+p {
+    padding: 10px 15px 0 0;
+    color: #777;
+    text-shadow: 1px 1px 1px #fff;
+    line-height: 16px
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: url(../images/vcard/hr.gif) repeat-x;
+    margin: 0 30px
+}
+
+h1 {
+    color: #555;
+    font-weight: normal;
+}
+
+p img {
+    background: #eee;
+    border: 5px solid #e6e6e6;
+    float: left;
+    margin: 0 10px 10px 0
+}
+
+ul li, ol li {
+    padding: 5px 0 5px 0;
+    color: #777;
+    text-shadow: 1px 1px 1px #fff;
+    list-style: square
+}
+
+.button {
+    padding: 5px 8px;
+    border: 1px solid #09a0ff;
+    background: url(../images/vcard/button.gif) repeat-x;
+    color: #fff;
+    text-shadow: 1px 1px 1px #1069a1;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px
+}
+
+ul.skills li .topic {
+    float: left;
+    font-weight: bold;
+    color: #777;
+    text-shadow: 1px 1px 1px #fff;
+    height: 7px
+}
+
+ul.networks li .title .surl {
+    clear: both;
+    color: #888;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px #fff
+}
