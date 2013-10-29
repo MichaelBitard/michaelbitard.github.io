@@ -3,15 +3,18 @@ var activeMenu;
 var iexplorer;
 
 $(document).ready(function () {
-    $('#vcard').fadeIn(200);
-    setupStage();
-    setupAnchor();
-    setupScroller();
-    setupMenu();
-    setupNetworks();
-    $(window).resize(function () {
-        setupStage()
-    })
+    if ($(this).width() > 800) {
+        // call supersize method
+        $('#vcard').fadeIn(200);
+        setupStage();
+        setupAnchor();
+        setupScroller();
+        setupMenu();
+        setupNetworks();
+        $(window).resize(function () {
+            setupStage()
+        })
+    }
 });
 
 function setupStage() {
