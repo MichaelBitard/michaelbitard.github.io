@@ -3,7 +3,6 @@ var activeMenu;
 var iexplorer;
 
 $(document).ready(function () {
-    $('#vcard').fadeIn(200);
     setupStage();
     setupAnchor();
     setupScroller();
@@ -12,7 +11,10 @@ $(document).ready(function () {
     $(window).resize(function () {
         setupStage()
     })
+
+    $("#wrapper").animate({opacity:1}, 1000);
 });
+
 
 function setupStage() {
     var $vcard = $('#vcard');
