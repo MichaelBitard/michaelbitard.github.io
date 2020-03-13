@@ -1,6 +1,5 @@
 = Curriculum Vitae - Michaël Bitard
 Michaël Bitard <bitard.michael@gmail.com>
-v1, 2019-03-13
 :toc2:
 :toclevels: 2
 :icons: font
@@ -10,6 +9,7 @@ v1, 2019-03-13
 :experimental:
 :source-language: asciidoc
 :includedir: _includes
+
 // Refs
 :link-31: https://goo.gl/maps/FhBLqfgD3DR2
 :link-easymile: http://www.easymile.com/
@@ -25,29 +25,13 @@ v1, 2019-03-13
 :link-touraine-tech-2018: https://2018.touraine.tech/
 :link-orange-business-services: https://www.orange-business.com/
 
-:link-elastic: https://www.elastic.co/
-:link-exo: http://www.exoplatform.com/
-:link-sre: http://www.pensions.bercy.gouv.fr/
-:link-ausy: http://www.ausy.com/language/en
-:link-sii: http://www.sii.fr/en
-:link-bodet: http://www.bodet-software.com/en/time-attendance/time-and-attendance.html
-:link-cogitec1: http://cogitec.fr
-:link-cogitec2: http://cogitec.fr/Cogitec/realisation.cogitec
-:link-blog: http://mgreau.com/blog.html
-:link-adeditor-code: https://github.com/mgreau/when-websocket-met-asciidoctor
-:link-resume-pdf: http://mgreau.com/resume/mgreau-resume.pdf
-:link-podcast-asciidoctor: https://lescastcodeurs.com/2016/04/05/lcc-144-interview-asciidoctor-avec-maxime-greau-et-guillaume-scheibel/
-:link-cast-codeurs: https://lescastcodeurs.com/
-:link-adoc-editor-organization: https://github.com/adoc-editor
-
-
 == Informations personnelles
 
 [horizontal]
 Nom:: Michaël Bitard
 Social::
 * http://michael.bitard.fr/[michael.bitard.fr, role="external", window="_blank"]
-* `@BitardMichael` icon:twitter[link=https://twitter.com/BitardMichael, role="external", window="_blank", alt="@BitardMichael"] icon:github[link=https://github.com/MichaelBitard, role="external", window="_blank"] icon:linkedin[1x,link=https://www.linkedin.com/in/michaelbitard/, role="external", window="_blank"]
+* `@BitardMichael` icon:twitter[link=https://twitter.com/BitardMichael, role="external",window="_blank",alt="@BitardMichael"] icon:github[link=https://github.com/MichaelBitard, role="external",window="_blank"] icon:linkedin[1x,link=https://www.linkedin.com/in/michaelbitard/, role="external",window="_blank"]
 Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
 
 == Expériences professionnelles
@@ -84,7 +68,6 @@ Technologies utilisées::
 
 Docker, React, Elixir, Git, Jenkins, Kubernetes, Ansible, Go, Linux
 
-
 === Viveris
 
 icon:calendar[title="Period"] `May 2016 -> Avril 2017` +
@@ -109,7 +92,6 @@ Technologies utilisées::
 
 Git, Java, Docker, Shell, Python, React, Ansible
 
-
 === LivingObjects
 
 icon:calendar[title="Period"] `Février 2014 -> Avril 2016` +
@@ -129,8 +111,8 @@ Technologies utilisées::
 
 Git, Java, Docker, Shell, Angular
 
-
 === Orange Business Services
+
 icon:calendar[title="Period"] `2009 -> 2014` +
 icon:group[title="Employé"] {link-orange-business-services}[OBS, role="external", window="_blank"] +
 __Orange Business Services fournit des services de communication intégrée aux entreprises dans les domaines du cloud computing, des télécommunications, des communications unifiées et de la collaboration__
@@ -155,10 +137,12 @@ icon:group[title="Freelance"] MonkeyPatch
 === Formations
 
 ==== Docker + Ansible
+
 icon:calendar[title="Period"] `Janvier 2016` +
 icon:group[title="Freelance"] RobustaCode
 
 ==== Docker
+
 icon:calendar[title="Period"] `Janvier 2017` +
 icon:group[title="Freelance"] DigitalVillage
 
@@ -182,19 +166,20 @@ Tools:: *Git*, Bash, IntelliJ
 +
 
 Contributions::
-Je suis un membre passif sur les projets open-source que j'utilise, je contribue à leur amélioration par l'intermédiaire de pull requests ou de projets annexes
-Tout ce qui est sur {link-open-source-agileek}[cette page] est open-source.
+Je suis un membre passif sur les projets open-source que j'utilise, je contribue à leur amélioration par l'intermédiaire de pull requests ou de projets annexes Tout ce qui est sur {link-open-source-agileek}[cette page] est open-source.
 
 == Blog
 
 J'écris quelques posts sur {link-blog}[mon blog]
 
 == Conférences & Présentations
+
 === Devfest Toulouse
 
 Membre de l'équipe d'organisation du DevFest Toulouse depuis 2016
 
 === {link-touraine-tech-2019}[Touraine Tech *2019*, role="external", window="_blank"]
+
 * *Contrôle vocal DIY*
 ** icon:file[] https://www.slideshare.net/bitardo/contrle-vocal-diy-tourainetech[Slides, role="external", window="_blank"]
 
@@ -205,7 +190,8 @@ Mais…
 
 Vous avez quand même peur, parce que ça implique que tout ce que vous allez dire dans votre logement va partir sur le net, on ne sait où, pour faire on ne sait quoi avec ?
 
-Et dans le monde du libre, on en est où ? Peut-on avoir quelque chose d'aussi utilisable sans envoyer toutes nos données chez les GAFA ?
+Et dans le monde du libre, on en est où ?
+Peut-on avoir quelque chose d'aussi utilisable sans envoyer toutes nos données chez les GAFA ?
 
 === {link-touraine-tech-2018}[Touraine Tech *2018*, role="external", window="_blank"] & GDG Toulouse 2017
 
@@ -213,7 +199,9 @@ Et dans le monde du libre, on en est où ? Peut-on avoir quelque chose d'aussi u
 ** icon:file[] https://drive.google.com/file/d/1FlaMp9l9eJ9QnKKzwsz-kWI4azyzRCcR/view[Slides, role="external", window="_blank"]
 ** icon:youtube[] https://www.youtube.com/watch?v=g9_vKJhnHgI[Session filmée @ *Youtube*, role="external", window="_blank"]
 
-Avec l'essor de l'IOT, de plus en plus de personnes sont tentées par la domotique. Les grandes enseignes s'y mettent, avec plus ou moins de succès. Notre métier nous permet une plus grand liberté dans ce domaine, encore faut-il ne pas se perdre dans ce qui existe.
+Avec l'essor de l'IOT, de plus en plus de personnes sont tentées par la domotique.
+Les grandes enseignes s'y mettent, avec plus ou moins de succès.
+Notre métier nous permet une plus grand liberté dans ce domaine, encore faut-il ne pas se perdre dans ce qui existe.
 Je vous propose un tour d'horizon (non exhaustif) de ce qui se fait, les solutions que j'ai choisies pour mon domicile ainsi que des pistes pour ceux qui souhaitent se lancer.
 
 === BrownBagLunch 2014 -> *
@@ -229,15 +217,18 @@ Je vous propose un tour d'horizon (non exhaustif) de ce qui se fait, les solutio
 == Éducation
 
 === Université François Rabelais de Tours
-icon:calendar[title="Period"] `2008` - *Master*  - _Administration des entreprises_ +
+
+icon:calendar[title="Period"] `2008` - *Master* - _Administration des entreprises_ +
+
 
 === École polytechnique de l’Université de Tours
-icon:calendar[title="Period"] `2005-2008` - *Diplôme d'ingénieur*  - _Polytech'Tours_ +
+
+icon:calendar[title="Period"] `2005-2008` - *Diplôme d'ingénieur* - _Polytech'Tours_ +
+
 
 === IUT de Bayonne
 
-icon:calendar[title="Period"] `2003-2005` - *DUT Informatique*  - _Option génie informatique_
-
+icon:calendar[title="Period"] `2003-2005` - *DUT Informatique* - _Option génie informatique_
 
 == Centres d'intérêt
 
