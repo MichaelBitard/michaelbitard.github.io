@@ -21,8 +21,9 @@ v1, 2019-03-13
 :link-open-source-docker-images: https://github.com/agileek/docker
 :link-open-source-agileek: https://github.com/agileek
 :link-blog: https://agileek.github.io/
-
-
+:link-touraine-tech-2019: https://2019.touraine.tech/
+:link-touraine-tech-2018: https://2018.touraine.tech/
+:link-orange-business-services: https://www.orange-business.com/
 
 :link-elastic: https://www.elastic.co/
 :link-exo: http://www.exoplatform.com/
@@ -128,22 +129,38 @@ Technologies utilisées::
 
 Git, Java, Docker, Shell, Angular
 
+
+=== Orange Business Services
+icon:calendar[title="Period"] `2009 -> 2014` +
+icon:group[title="Employé"] {link-orange-business-services}[OBS, role="external", window="_blank"] +
+__Orange Business Services fournit des services de communication intégrée aux entreprises dans les domaines du cloud computing, des télécommunications, des communications unifiées et de la collaboration__
+
+* *Contactless*
+** MutTsm : Plateforme broker contacless
+** ONSM UK : Gestion des services contactless en Angleterre
+** Euro-information : Gestion des services contactless en France
+* UGC : Site Web
+* Disneyland : Version mobile
+* Robert laffont : L'hyperlivre "Le Sens des choses"
+* Meerkat : Service de redirection MBS
+* VirtualPresence : Solution de visioconférence pour les PME
+* Gala : Plateforme d'alerting multi-clients, multi-canal
+* MyDatabases : Gestion de bases de données
+
 === Audit applicatif
 
 icon:calendar[title="Period"] `Octobre 2016` +
 icon:group[title="Freelance"] MonkeyPatch
 
-== Formations
+=== Formations
 
-=== Docker + Ansible
+==== Docker + Ansible
 icon:calendar[title="Period"] `Janvier 2016` +
 icon:group[title="Freelance"] RobustaCode
 
-=== Docker
+==== Docker
 icon:calendar[title="Period"] `Janvier 2017` +
 icon:group[title="Freelance"] DigitalVillage
-
-
 
 == Compétences techniques
 
@@ -168,26 +185,58 @@ Contributions::
 Je suis un membre passif sur les projets open-source que j'utilise, je contribue à leur amélioration par l'intermédiaire de pull requests ou de projets annexes
 Tout ce qui est sur {link-open-source-agileek}[cette page] est open-source.
 
-=== Blog
+== Blog
 
 J'écris quelques posts sur {link-blog}[mon blog]
 
 == Conférences & Présentations
+=== Devfest Toulouse
 
-=== Touraine Tech 2018
+Membre de l'équipe d'organisation du DevFest Toulouse depuis 2016
+
+=== {link-touraine-tech-2019}[Touraine Tech *2019*, role="external", window="_blank"]
+* *Contrôle vocal DIY*
+** icon:file[] https://www.slideshare.net/bitardo/contrle-vocal-diy-tourainetech[Slides, role="external", window="_blank"]
+
+Google home vous fait rêver ?
+Vous aimeriez entendre la voix mélodieuse d'Alexa vous apprendre qu'il faut sortir les poubelles ce soir ?
+
+Mais…
+
+Vous avez quand même peur, parce que ça implique que tout ce que vous allez dire dans votre logement va partir sur le net, on ne sait où, pour faire on ne sait quoi avec ?
+
+Et dans le monde du libre, on en est où ? Peut-on avoir quelque chose d'aussi utilisable sans envoyer toutes nos données chez les GAFA ?
+
+=== {link-touraine-tech-2018}[Touraine Tech *2018*, role="external", window="_blank"] & GDG Toulouse 2017
 
 * *Ce que j'aurais aimé savoir en me lançant dans la domotique*
 ** icon:file[] https://drive.google.com/file/d/1FlaMp9l9eJ9QnKKzwsz-kWI4azyzRCcR/view[Slides, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=g9_vKJhnHgI[Session filmée @ *Youtube*, role="external", window="_blank"]
 
 Avec l'essor de l'IOT, de plus en plus de personnes sont tentées par la domotique. Les grandes enseignes s'y mettent, avec plus ou moins de succès. Notre métier nous permet une plus grand liberté dans ce domaine, encore faut-il ne pas se perdre dans ce qui existe.
 Je vous propose un tour d'horizon (non exhaustif) de ce qui se fait, les solutions que j'ai choisies pour mon domicile ainsi que des pistes pour ceux qui souhaitent se lancer.
+
+=== BrownBagLunch 2014 -> *
+
+* *Mini conférences le midi*
+** icon:link[] https://www.brownbaglunch.fr/baggers.html#michael-bitard[J'irais manger chez vous, role="external", window="_blank"]
 
 == Langages
 
 * Français : natif
 * Anglais : courant (lecture); intermédiaire (écrit, parlé)
 
-== Education
+== Éducation
+
+=== Université François Rabelais de Tours
+icon:calendar[title="Period"] `2008` - *Master*  - _Administration des entreprises_ +
+
+=== École polytechnique de l’Université de Tours
+icon:calendar[title="Period"] `2005-2008` - *Diplôme d'ingénieur*  - _Polytech'Tours_ +
+
+=== IUT de Bayonne
+
+icon:calendar[title="Period"] `2003-2005` - *DUT Informatique*  - _Option génie informatique_
 
 
 == Centres d'intérêt
