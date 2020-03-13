@@ -24,7 +24,8 @@ Michaël Bitard <bitard.michael@gmail.com>
 :link-touraine-tech-2019: https://2019.touraine.tech/
 :link-touraine-tech-2018: https://2018.touraine.tech/
 :link-orange-business-services: https://www.orange-business.com/
-
+:link-boxoffice: https://company.boxoffice.com/
+:link-pubstack: https://pubstack.io/
 == Informations personnelles
 
 [horizontal]
@@ -36,11 +37,36 @@ Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
 
 == Expériences professionnelles
 
+=== Pubstack
+
+icon:calendar[title="Period"] `Septembre 2019 -> 2020` +
+icon:group[title="Freelance"] {link-pubstack}[Pubstack, role="external", window="_blank"] - Toulouse +
+__Help publishers thrive in a complex programmatic world__
+
+
+=== The Boxoffice Company
+
+icon:calendar[title="Period"] `Mars 2019 -> 2020` +
+icon:group[title="Freelance"] {link-boxoffice}[The Boxoffice Company, role="external", window="_blank"] - Toulouse +
+__Dedicated to innovating the box office through Media, Tech & Data__
+
+--
+[horizontal]
+Position:: *Devops & Backend & Frontend developer* +
+Développeur sénior
+--
+
+* Partage de code front/back
+* Tests de haut niveau pour stabiliser la plateforme
+* Simplification du poste de développeur
+* CI/CD
+* Mise en place d'un cluster kubernetes permettant l'ingestion de gros volumes de données cinéma
+
 === EasyMile
 
-icon:calendar[title="Period"] `May 2017 -> Mars 2019` +
+icon:calendar[title="Period"] `Mai 2017 -> Mars 2019` +
 icon:group[title="Freelance"] {link-easymile}[EasyMile, role="external", window="_blank"] - Toulouse +
-__EasyMile is one of the leading companies that specialises in autonomous vehicle technology.__
+__Leading companies that specialises in autonomous vehicle technology.__
 
 --
 [horizontal]
@@ -72,7 +98,7 @@ Docker, React, Elixir, Git, Jenkins, Kubernetes, Ansible, Go, Linux
 
 icon:calendar[title="Period"] `May 2016 -> Avril 2017` +
 icon:group[title="Freelance"] {link-viveris}[Viveris, role="external", window="_blank"] - Toulouse +
-__Viveris est un groupe de conseil et d'ingenierie qui accompagne la transformation numérique des entreprises et de leurs produits__
+__Groupe de conseil et d'ingenierie qui accompagne la transformation numérique des entreprises et de leurs produits__
 
 --
 [horizontal]
