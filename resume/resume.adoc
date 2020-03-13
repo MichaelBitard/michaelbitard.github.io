@@ -90,6 +90,15 @@ Développeur sénior, R&D supervision de flottes de véhicules autonomes
 ** Jenkins nodes physically rebuilt from scratch using pxe
 ** Jenkins Read-only with job dsl and Jenkinsfiles
 
+[NOTE]
+====
+Projet de Recherche et Développement autour de la gestion de flotte de véhicules autonomes chez EasyMile.
+
+Élément novateur, le partage de trajets, permettant notamment de rediriger en temps réel des véhicules afin d'optimiser leurs déplacements.
+
+Il s'agissait de l'association d'un domaine connu ( Le transport ) avec un domaine assez récent ( Les véhicules autonomes ) qui a ouvert de nouvelles possibilités qui n'existaient pas jusqu'alors
+====
+
 Technologies utilisées::
 
 Docker, React, Elixir, Git, Jenkins, Kubernetes, Ansible, Go, Linux
@@ -113,6 +122,23 @@ Développeur sénior, R&D virtualisation de serveurs applicatifs fournissant un 
 ** Mise en place de pratiques de travail
 *** TDD, Test, Refactoring
 ** Virtualisation de la solution
+
+[NOTE]
+====
+*Projet Marlink*
+
+Il s'agissait de virtualiser la plateforme permettant de fournir Internet à des bateaux.
+
+La virtualisation permet une installation et une maintenance simplifiée comparée aux installations concurrentes.
+
+
+*Projet Openbach*
+
+Nous devions, en partenariat avec le CNES, fournir un démonstrateur simple qui permettait de suivre en temps réel et en déplacement une connectivité satellite.
+Une utilisation potentielle est lors des feu de forêt, l'intervention des pompiers est souvent ralentie par le manque de connectivité (Et la lenteur à établir une connexion satellite stable une fois sur place).
+Le suivi de connectivité en temps réel permet aux équipes de savoir où s'arrêter pour optimiser leur installation.
+
+====
 
 Technologies utilisées::
 
