@@ -44,6 +44,22 @@ icon:group[title="Freelance"] {link-pubstack}[Pubstack, role="external", window=
 __Help publishers thrive in a complex programmatic world__
 
 
+[NOTE]
+====
+On peut comparer la publicité en ligne à la ruée vers l'or au Far West. Le plus fort fait la loi, chacun y va de son coup de pioche.
+
+Dans ce domaine hautement concurrentiel et quasi temps réel, avoir un tiers de confiance permet d'apporter plus de transparence, en plus de découvrir les problèmes de configuration au moment où ils se produisent.
+
+Intégré au sein de l'équipe, j'essaie d'apporter mon expérience pour que l'on devienne l'équipe la plus efficace et la plus autonome possible, notamment par la mise en place de rituels ( core protocols ) et de pratiques de code ( tests, Pair programming, Boy scout rule,... ).
+
+La problématique R&D de Pubstack se situe autour de l'accés à la donnée (coût/rapidité). En effet soit on accède rapidement à la donnée, mais ça coûte trop cher pour être rentable, soit on accède lentement à la donnée, et on perd l'intérêt de la solution par rapport à ce qui existe déjà.
+
+====
+
+Technologies utilisées::
+
+Vue, Typescript, Go, Git, Linux
+
 === The Boxoffice Company
 
 icon:calendar[title="Period"] `Mars 2019 -> 2020` +
@@ -61,6 +77,17 @@ Développeur sénior
 * Simplification du poste de développeur
 * CI/CD
 * Mise en place d'un cluster kubernetes permettant l'ingestion de gros volumes de données cinéma
+
+[NOTE]
+====
+Au coeur d'une équipe travaillant sur un projet aidant les cinémas et studios à mieux suivre leurs films, mon intervention a consisté principalement à mettre en place les bonnes pratiques de CI/CD afin d'éviter à la dette technique de grossir de manière incontrôlable.
+
+La seconde partie de ma mission consiste en la mise en place d'un cluster kubernetes abritant un ETL ( Airflow ), dont la mission principale est d'ingérer les horaires de tous les cinémas existant.
+====
+
+Technologies utilisées::
+
+Docker, React, Typescript, Git, Kubernetes, Linux
 
 === EasyMile
 
