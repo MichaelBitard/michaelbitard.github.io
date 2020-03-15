@@ -135,6 +135,9 @@ La virtualisation permet une installation et une maintenance simplifiée compar�
 *Projet Openbach*
 
 Nous devions, en partenariat avec le CNES, fournir un démonstrateur simple qui permettait de suivre en temps réel et en déplacement une connectivité satellite.
+
+Jusqu'à présent, la connectivité satellite se fait avec une parabole fixe, et peut mettre jusqu'à 15 minutes pour établir une connection.
+
 Une utilisation potentielle est lors des feu de forêt, l'intervention des pompiers est souvent ralentie par le manque de connectivité (Et la lenteur à établir une connexion satellite stable une fois sur place).
 Le suivi de connectivité en temps réel permet aux équipes de savoir où s'arrêter pour optimiser leur installation.
 
@@ -159,6 +162,15 @@ R&D Développement et déploiement d'une base de données Cassandra-like
 * Développement d'une base de données pouvant répondre aux contraintes de volume et d'indexation spécifiques au client
 * Déploiement "on-premise" sous docker
 
+[NOTE]
+====
+
+Outil de gestion et d'analyse en temps réel des infrastructures réseau. Le volume et les contraintes d'accés ne nous permettait pas d'utiliser des solutions existantes en 2014 ( Le plus proche étant cassandra, avec des temps d'accés à la donnée beaucoup trop long ).
+
+Il a donc été décidé de développer une solution sur mesure de stockage de données afin d'ingérer et d'accéder à la données dans les tempsdemandés par nos clients.
+
+====
+
 Technologies utilisées::
 
 Git, Java, Docker, Shell, Angular
@@ -180,6 +192,21 @@ __Orange Business Services fournit des services de communication intégrée aux 
 * VirtualPresence : Solution de visioconférence pour les PME
 * Gala : Plateforme d'alerting multi-clients, multi-canal
 * MyDatabases : Gestion de bases de données
+
+[NOTE]
+====
+
+Au sein d'une équipe R&D passionnée, nous avions pour mission de gérer plusieurs projets de taille réduite en parallèle.
+
+Nous étions spécialisés autour de la technologie NFC, une technologie qui allait permettre à Orange de fournir des services innovants à ses clients ( paiment via mobile, badge d'accés dématérialisé,... )
+
+Il s'agissait d'un domaine hautement novateur et pour lequel il n'existait pas d'alternatives open source
+
+====
+
+Technologies utilisées::
+
+Git, Java, Shell
 
 === Audit applicatif
 
