@@ -9,6 +9,8 @@ Michaël Bitard <bitard.michael@gmail.com>
 :experimental:
 :source-language: asciidoc
 :includedir: _includes
+:docinfo1:
+:nofooter:
 
 // Refs
 :link-31: https://goo.gl/maps/FhBLqfgD3DR2
@@ -31,7 +33,7 @@ Michaël Bitard <bitard.michael@gmail.com>
 [horizontal]
 Nom:: Michaël Bitard
 Social::
-* http://michael.bitard.fr/[michael.bitard.fr, role="external", window="_blank"]
+* https://michael.bitard.fr/[michael.bitard.fr, role="external", window="_blank"]
 * `@BitardMichael` icon:twitter[link=https://twitter.com/BitardMichael, role="external",window="_blank",alt="@BitardMichael"] icon:github[link=https://github.com/MichaelBitard, role="external",window="_blank"] icon:linkedin[1x,link=https://www.linkedin.com/in/michaelbitard/, role="external",window="_blank"]
 Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
 
