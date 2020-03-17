@@ -1,0 +1,367 @@
+= Curriculum Vitae - Michaël Bitard
+Michaël Bitard <bitard.michael@gmail.com>
+:toc2:
+:toclevels: 2
+:icons: font
+:linkattrs:
+:sectanchors:
+:sectlink:
+:experimental:
+:source-language: asciidoc
+:includedir: _includes
+:docinfo1:
+:nofooter:
+
+// Refs
+:link-31: https://goo.gl/maps/FhBLqfgD3DR2
+:link-easymile: http://www.easymile.com/
+:link-oauth2_proxy: https://github.com/bitly/oauth2_proxy
+:link-viveris: https://www.viveris.fr/
+:link-openbach: http://www.openbach.org
+:link-marlink: https://marlink.com/
+:link-living-objects: https://livingobjects.com/
+:link-open-source-docker-images: https://github.com/agileek/docker
+:link-open-source-agileek: https://github.com/agileek
+:link-blog: https://agileek.github.io/
+:link-touraine-tech-2019: https://2019.touraine.tech/
+:link-touraine-tech-2018: https://2018.touraine.tech/
+:link-orange-business-services: https://www.orange-business.com/
+:link-boxoffice: https://company.boxoffice.com/
+:link-pubstack: https://pubstack.io/
+== Informations personnelles
+
+[horizontal]
+Nom:: Michaël Bitard
+Social::
+* https://michael.bitard.fr/[michael.bitard.fr, role="external", window="_blank"]
+* `@BitardMichael` icon:twitter[link=https://twitter.com/BitardMichael, role="external",window="_blank",alt="@BitardMichael"] icon:github[link=https://github.com/MichaelBitard, role="external",window="_blank"] icon:linkedin[1x,link=https://www.linkedin.com/in/michaelbitard/, role="external",window="_blank"]
+Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
+
+== Expériences professionnelles
+
+=== Pubstack
+
+icon:calendar[title="Period"] `Septembre 2019 -> 2020` +
+icon:group[title="Freelance"] {link-pubstack}[Pubstack, role="external", window="_blank"] - Toulouse +
+__Help publishers thrive in a complex programmatic world__
+
+
+[NOTE]
+====
+On peut comparer la publicité en ligne à la ruée vers l'or à l'époque du Far West. Le plus fort fait la loi, chacun y va de son coup de pioche.
+
+Dans ce domaine hautement concurrentiel et quasi temps réel, avoir un tiers de confiance permet d'apporter plus de transparence, en plus de découvrir les problèmes de configuration au moment où ils se produisent.
+
+Intégré au sein de l'équipe, j'essaie d'apporter mon expérience pour que l'on devienne l'équipe la plus efficace et la plus autonome possible, notamment par la mise en place de rituels ( core protocols ) et de pratiques de code ( tests, Pair programming, Boy scout rule,... ).
+
+La problématique R&D de Pubstack se situe autour de l'accés à la donnée (coût/rapidité).
+En effet :
+
+- soit on accède rapidement à la donnée, mais cela coûte trop cher pour être rentable
+- soit on accède lentement à la donnée, mais on perd l'intérêt de la solution proposée par rapport à ce qui existe déjà.
+
+
+====
+
+Technologies utilisées::
+
+Vue, Typescript, Go, Git, Linux
+
+=== The Boxoffice Company
+
+icon:calendar[title="Period"] `Mars 2019 -> 2020` +
+icon:group[title="Freelance"] {link-boxoffice}[The Boxoffice Company, role="external", window="_blank"] - Toulouse +
+__Dedicated to innovating the box office through Media, Tech & Data__
+
+--
+[horizontal]
+Position:: *Devops & Backend & Frontend developer* +
+Développeur sénior
+--
+
+* Partage de code front/back
+* Tests de haut niveau pour stabiliser la plateforme
+* Simplification du poste de développeur
+* CI/CD
+* Mise en place d'un cluster kubernetes permettant l'ingestion de gros volumes de données cinéma
+
+[NOTE]
+====
+Au coeur d'une équipe travaillant sur un projet aidant les cinémas et studios à mieux suivre leurs films, mon intervention a consisté principalement à mettre en place les bonnes pratiques de CI/CD afin de maîtriser notre dette technique.
+
+La seconde partie de ma mission consiste en la mise en place d'un cluster kubernetes abritant un ETL ( Airflow ), dont la mission principale est d'ingérer les horaires de tous les cinémas existant.
+====
+
+Technologies utilisées::
+
+Docker, React, Typescript, Git, Kubernetes, Linux
+
+=== EasyMile
+
+icon:calendar[title="Period"] `Mai 2017 -> Mars 2019` +
+icon:group[title="Freelance"] {link-easymile}[EasyMile, role="external", window="_blank"] - Toulouse +
+__Leading companies that specialises in autonomous vehicle technology.__
+
+--
+[horizontal]
+Position:: *Devops & Backend & Frontend developer* +
+Développeur sénior, R&D supervision de flottes de véhicules autonomes
+--
+
+* Release
+** Improve production stack
+** Cleanup the CI Workflow
+** Integrate auth0 to {link-oauth2_proxy}["oauth2_proxy", role="external", window="_blank"]
+* Mob programming
+* Pair programming
+* Frontend
+** Migrate to styled-components
+** Migrate to create-react-app
+* Backend
+** Ride sharing
+** APis
+* CI
+** Jenkins nodes physically rebuilt from scratch using pxe
+** Jenkins Read-only with job dsl and Jenkinsfiles
+
+[NOTE]
+====
+Projet de Recherche et Développement autour de la gestion de flotte de véhicules autonomes chez EasyMile.
+
+Élément novateur, le partage de trajets permet notamment de rediriger en temps réel des véhicules afin d'optimiser leurs déplacements.
+
+L'association d'un domaine connu ( Le transport ) avec un domaine assez récent ( Les véhicules autonomes ) a ouvert à de nouvelles possibilités, ainsi que de nouveau challenges techniques à relever.
+====
+
+Technologies utilisées::
+
+Docker, React, Elixir, Git, Jenkins, Kubernetes, Ansible, Go, Linux
+
+=== Viveris
+
+icon:calendar[title="Period"] `May 2016 -> Avril 2017` +
+icon:group[title="Freelance"] {link-viveris}[Viveris, role="external", window="_blank"] - Toulouse +
+__Groupe de conseil et d'ingenierie qui accompagne la transformation numérique des entreprises et de leurs produits__
+
+--
+[horizontal]
+Position:: *Devops & Backend & Frontend developer* +
+Développeur sénior, R&D virtualisation de serveurs applicatifs fournissant un accès internet via Satellite
+--
+
+* Projet {link-openbach}[Openbach, role="external", window="_blank"]
+** *Définir une interface Web* permettant la configuration du projet openbach
+* Projet {link-marlink}[Marlink, role="external", window="_blank"]
+** Consolidation de la base de code existante
+** Mise en place de pratiques de travail
+*** TDD, Test, Refactoring
+** Virtualisation de la solution
+
+[NOTE]
+====
+*Projet Marlink*
+
+Virtualiser la plateforme permettant de fournir un accés Internet à des bateaux est un enjeu majeur pour Marlink.
+
+Cela permet une installation et une maintenance simplifiée comparées aux installations concurrentes.
+
+
+*Projet Openbach*
+
+En partenariat avec le CNES, nous avons fourni un démonstrateur simple permettant de suivre en temps réel et en mouvement une connectivité satellite.
+
+La connectivité satellite se fait habituellement sur un point fixe, et peut mettre jusqu'à 15 minutes pour se mettre en place.
+
+Ce type d'amélioration peut être bénéfique par exemple pour l'intervention des pompiers lors des feux de forêt. Ils sont souvent ralentis par le manque de connectivité (Et la lenteur à établir une connexion satellite stable une fois sur place).
+Le suivi de connectivité en temps réel permet aux équipes de savoir où s'arrêter pour optimiser leur installation, et gagner un temps précieux.
+
+====
+
+Technologies utilisées::
+
+Git, Java, Docker, Shell, Python, React, Ansible
+
+=== LivingObjects
+
+icon:calendar[title="Period"] `Février 2014 -> Avril 2016` +
+icon:group[title="Freelance"] {link-living-objects}[LivingObjects, role="external", window="_blank"] +
+__Network Analytics Platform__
+
+--
+[horizontal]
+Position:: *Java - Web - DevOps* +
+R&D Développement et déploiement d'une base de données Cassandra-like
+--
+
+* Développement d'une base de données pouvant répondre aux contraintes de volume et d'indexation spécifiques au client
+* Déploiement "on-premise" sous docker
+
+[NOTE]
+====
+
+Outil de gestion et d'analyse en temps réel des infrastructures réseau. Le volume et les contraintes d'accés ne nous permettait pas d'utiliser des solutions existantes en 2014 ( Le plus proche étant cassandra, avec des temps d'accés à la donnée beaucoup trop long ).
+
+Il a donc été décidé de développer une solution sur mesure de stockage de données afin d'ingérer et d'accéder à la donnée dans les contraintes de temps demandées par nos clients.
+
+====
+
+Technologies utilisées::
+
+Git, Java, Docker, Shell, Angular
+
+=== Orange Business Services
+
+icon:calendar[title="Period"] `2009 -> 2014` +
+icon:group[title="Employé"] {link-orange-business-services}[OBS, role="external", window="_blank"] +
+__Orange Business Services fournit des services de communication intégrée aux entreprises dans les domaines du cloud computing, des télécommunications, des communications unifiées et de la collaboration__
+
+* *Contactless*
+** MutTsm : Plateforme broker contacless
+** ONSM UK : Gestion des services contactless en Angleterre
+** Euro-information : Gestion des services contactless en France
+* UGC : Site Web
+* Disneyland : Version mobile
+* Robert laffont : L'hyperlivre "Le Sens des choses"
+* Meerkat : Service de redirection MBS
+* VirtualPresence : Solution de visioconférence pour les PME
+* Gala : Plateforme d'alerting multi-clients, multi-canal
+* MyDatabases : Gestion de bases de données
+
+[NOTE]
+====
+
+Au sein d'une équipe R&D passionnée, nous avions pour mission de gérer plusieurs projets de taille réduite en parallèle.
+
+Nous étions spécialisés autour de la technologie NFC, une technologie qui allait permettre à Orange de fournir des services innovants à ses clients ( paiment via mobile, badge d'accés dématérialisé,... )
+
+Il s'agissait d'un domaine hautement novateur et pour lequel il n'existait pas d'alternatives open source
+
+====
+
+Technologies utilisées::
+
+Git, Java, Shell
+
+=== Audit applicatif
+
+icon:calendar[title="Period"] `Octobre 2016` +
+icon:group[title="Freelance"] MonkeyPatch
+
+=== Formations
+
+==== Docker + Ansible
+
+icon:calendar[title="Period"] `Janvier 2016` +
+icon:group[title="Freelance"] RobustaCode
+
+==== Docker
+
+icon:calendar[title="Period"] `Janvier 2017` +
+icon:group[title="Freelance"] DigitalVillage
+
+== Compétences techniques
+
+Conteneurs:: Docker, Compose, Machine, Kubernetes, Swarm
+
+Languages and Specifications::  TypeScript, Java, Python, Go, Erlang, Elixir, Bash, HTML, CSS, AsciiDoc
+
+Software Engineering:: *XP* (Pair programming, Clean Code, TDD), DevOps, Continuous Integration, Continuous Delivery
+
+OS:: Linux (Ubuntu, Debian, Fedora, Alpine)
+
+Tools:: *Git*, Bash, IntelliJ
+
+== Open Source
+
+{link-open-source-docker-images}[Images docker]::
++
+* _Toutes les images docker que je maintiens_ +
++
+
+Contributions::
+Je suis un membre passif sur les projets open-source que j'utilise, je contribue à leur amélioration par l'intermédiaire de pull requests ou de projets annexes.
+
+Tout ce qui est sur {link-open-source-agileek}[cette page] est open-source.
+
+== Blog
+
+J'écris quelques posts sur {link-blog}[mon blog]
+
+== Conférences & Présentations
+
+=== Devfest Toulouse
+
+Membre de l'équipe d'organisation du DevFest Toulouse depuis 2016
+
+=== {link-touraine-tech-2019}[Touraine Tech *2019*, role="external", window="_blank"]
+
+* *Contrôle vocal DIY*
+** icon:file[] https://www.slideshare.net/bitardo/contrle-vocal-diy-tourainetech[Slides, role="external", window="_blank"]
+
+[NOTE]
+====
+
+Google home vous fait rêver ?
+Vous aimeriez entendre la voix mélodieuse d'Alexa vous apprendre qu'il faut sortir les poubelles ce soir ?
+
+Mais…
+
+Vous avez quand même peur, parce que ça implique que tout ce que vous allez dire dans votre logement va partir sur le net, on ne sait où, pour faire on ne sait quoi avec ?
+
+Et dans le monde du libre, on en est où ?
+Peut-on avoir quelque chose d'aussi utilisable sans envoyer toutes nos données chez les GAFA ?
+
+====
+
+=== {link-touraine-tech-2018}[Touraine Tech *2018*, role="external", window="_blank"] & GDG Toulouse 2017
+
+* *Ce que j'aurais aimé savoir en me lançant dans la domotique*
+** icon:file[] https://drive.google.com/file/d/1FlaMp9l9eJ9QnKKzwsz-kWI4azyzRCcR/view[Slides, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=g9_vKJhnHgI[Session filmée @ *Youtube*, role="external", window="_blank"]
+
+
+[NOTE]
+====
+
+
+Avec l'essor de l'IOT, de plus en plus de personnes sont tentées par la domotique.
+
+Les grandes enseignes s'y mettent, avec plus ou moins de succès.
+
+Notre métier nous permet une plus grand liberté dans ce domaine, encore faut-il ne pas se perdre dans ce qui existe.
+
+Je vous propose un tour d'horizon (non exhaustif) de ce qui se fait, les solutions que j'ai choisies pour mon domicile ainsi que des pistes pour ceux qui souhaitent se lancer.
+
+====
+
+=== BrownBagLunch 2014 -> *
+
+* *Mini conférences le midi*
+** icon:link[] https://www.brownbaglunch.fr/baggers.html#michael-bitard[J'irais manger chez vous, role="external", window="_blank"]
+
+== Langages
+
+* Français : natif
+* Anglais : courant (lecture); intermédiaire (écrit, parlé)
+
+== Éducation
+
+=== Université François Rabelais de Tours
+
+icon:calendar[title="Period"] `2008` - *Master* - _Administration des entreprises_ +
+
+
+=== École polytechnique de l’Université de Tours
+
+icon:calendar[title="Period"] `2005-2008` - *Diplôme d'ingénieur* - _Polytech'Tours_ +
+
+
+=== IUT de Bayonne
+
+icon:calendar[title="Period"] `2003-2005` - *DUT Informatique* - _Option génie informatique_
+
+== Centres d'intérêt
+
+* Sport : Squash, Volley
+* Séries TV, Cinéma
+* Domotique, Open source
