@@ -48,13 +48,18 @@ __Help publishers thrive in a complex programmatic world__
 
 [NOTE]
 ====
-On peut comparer la publicité en ligne à la ruée vers l'or au Far West. Le plus fort fait la loi, chacun y va de son coup de pioche.
+On peut comparer la publicité en ligne à la ruée vers l'or à l'époque du Far West. Le plus fort fait la loi, chacun y va de son coup de pioche.
 
 Dans ce domaine hautement concurrentiel et quasi temps réel, avoir un tiers de confiance permet d'apporter plus de transparence, en plus de découvrir les problèmes de configuration au moment où ils se produisent.
 
 Intégré au sein de l'équipe, j'essaie d'apporter mon expérience pour que l'on devienne l'équipe la plus efficace et la plus autonome possible, notamment par la mise en place de rituels ( core protocols ) et de pratiques de code ( tests, Pair programming, Boy scout rule,... ).
 
-La problématique R&D de Pubstack se situe autour de l'accés à la donnée (coût/rapidité). En effet soit on accède rapidement à la donnée, mais ça coûte trop cher pour être rentable, soit on accède lentement à la donnée, et on perd l'intérêt de la solution par rapport à ce qui existe déjà.
+La problématique R&D de Pubstack se situe autour de l'accés à la donnée (coût/rapidité).
+En effet :
+
+- soit on accède rapidement à la donnée, mais cela coûte trop cher pour être rentable
+- soit on accède lentement à la donnée, mais on perd l'intérêt de la solution proposée par rapport à ce qui existe déjà.
+
 
 ====
 
@@ -82,7 +87,7 @@ Développeur sénior
 
 [NOTE]
 ====
-Au coeur d'une équipe travaillant sur un projet aidant les cinémas et studios à mieux suivre leurs films, mon intervention a consisté principalement à mettre en place les bonnes pratiques de CI/CD afin d'éviter à la dette technique de grossir de manière incontrôlable.
+Au coeur d'une équipe travaillant sur un projet aidant les cinémas et studios à mieux suivre leurs films, mon intervention a consisté principalement à mettre en place les bonnes pratiques de CI/CD afin de maîtriser notre dette technique.
 
 La seconde partie de ma mission consiste en la mise en place d'un cluster kubernetes abritant un ETL ( Airflow ), dont la mission principale est d'ingérer les horaires de tous les cinémas existant.
 ====
@@ -123,9 +128,9 @@ Développeur sénior, R&D supervision de flottes de véhicules autonomes
 ====
 Projet de Recherche et Développement autour de la gestion de flotte de véhicules autonomes chez EasyMile.
 
-Élément novateur, le partage de trajets, permettant notamment de rediriger en temps réel des véhicules afin d'optimiser leurs déplacements.
+Élément novateur, le partage de trajets permet notamment de rediriger en temps réel des véhicules afin d'optimiser leurs déplacements.
 
-Il s'agissait de l'association d'un domaine connu ( Le transport ) avec un domaine assez récent ( Les véhicules autonomes ) qui a ouvert de nouvelles possibilités qui n'existaient pas jusqu'alors
+L'association d'un domaine connu ( Le transport ) avec un domaine assez récent ( Les véhicules autonomes ) a ouvert à de nouvelles possibilités, ainsi que de nouveau challenges techniques à relever.
 ====
 
 Technologies utilisées::
@@ -156,19 +161,19 @@ Développeur sénior, R&D virtualisation de serveurs applicatifs fournissant un 
 ====
 *Projet Marlink*
 
-Il s'agissait de virtualiser la plateforme permettant de fournir Internet à des bateaux.
+Virtualiser la plateforme permettant de fournir un accés Internet à des bateaux est un enjeu majeur pour Marlink.
 
-La virtualisation permet une installation et une maintenance simplifiée comparée aux installations concurrentes.
+Cela permet une installation et une maintenance simplifiée comparées aux installations concurrentes.
 
 
 *Projet Openbach*
 
-Nous devions, en partenariat avec le CNES, fournir un démonstrateur simple qui permettait de suivre en temps réel et en déplacement une connectivité satellite.
+En partenariat avec le CNES, nous avons fourni un démonstrateur simple permettant de suivre en temps réel et en mouvement une connectivité satellite.
 
-Jusqu'à présent, la connectivité satellite se fait avec une parabole fixe, et peut mettre jusqu'à 15 minutes pour établir une connection.
+La connectivité satellite se fait habituellement sur un point fixe, et peut mettre jusqu'à 15 minutes pour se mettre en place.
 
-Une utilisation potentielle est lors des feu de forêt, l'intervention des pompiers est souvent ralentie par le manque de connectivité (Et la lenteur à établir une connexion satellite stable une fois sur place).
-Le suivi de connectivité en temps réel permet aux équipes de savoir où s'arrêter pour optimiser leur installation.
+Ce type d'amélioration peut être bénéfique par exemple pour l'intervention des pompiers lors des feux de forêt. Ils sont souvent ralentis par le manque de connectivité (Et la lenteur à établir une connexion satellite stable une fois sur place).
+Le suivi de connectivité en temps réel permet aux équipes de savoir où s'arrêter pour optimiser leur installation, et gagner un temps précieux.
 
 ====
 
@@ -196,7 +201,7 @@ R&D Développement et déploiement d'une base de données Cassandra-like
 
 Outil de gestion et d'analyse en temps réel des infrastructures réseau. Le volume et les contraintes d'accés ne nous permettait pas d'utiliser des solutions existantes en 2014 ( Le plus proche étant cassandra, avec des temps d'accés à la donnée beaucoup trop long ).
 
-Il a donc été décidé de développer une solution sur mesure de stockage de données afin d'ingérer et d'accéder à la données dans les tempsdemandés par nos clients.
+Il a donc été décidé de développer une solution sur mesure de stockage de données afin d'ingérer et d'accéder à la donnée dans les contraintes de temps demandées par nos clients.
 
 ====
 
@@ -274,7 +279,9 @@ Tools:: *Git*, Bash, IntelliJ
 +
 
 Contributions::
-Je suis un membre passif sur les projets open-source que j'utilise, je contribue à leur amélioration par l'intermédiaire de pull requests ou de projets annexes Tout ce qui est sur {link-open-source-agileek}[cette page] est open-source.
+Je suis un membre passif sur les projets open-source que j'utilise, je contribue à leur amélioration par l'intermédiaire de pull requests ou de projets annexes.
+
+Tout ce qui est sur {link-open-source-agileek}[cette page] est open-source.
 
 == Blog
 
@@ -291,6 +298,9 @@ Membre de l'équipe d'organisation du DevFest Toulouse depuis 2016
 * *Contrôle vocal DIY*
 ** icon:file[] https://www.slideshare.net/bitardo/contrle-vocal-diy-tourainetech[Slides, role="external", window="_blank"]
 
+[NOTE]
+====
+
 Google home vous fait rêver ?
 Vous aimeriez entendre la voix mélodieuse d'Alexa vous apprendre qu'il faut sortir les poubelles ce soir ?
 
@@ -301,16 +311,28 @@ Vous avez quand même peur, parce que ça implique que tout ce que vous allez di
 Et dans le monde du libre, on en est où ?
 Peut-on avoir quelque chose d'aussi utilisable sans envoyer toutes nos données chez les GAFA ?
 
+====
+
 === {link-touraine-tech-2018}[Touraine Tech *2018*, role="external", window="_blank"] & GDG Toulouse 2017
 
 * *Ce que j'aurais aimé savoir en me lançant dans la domotique*
 ** icon:file[] https://drive.google.com/file/d/1FlaMp9l9eJ9QnKKzwsz-kWI4azyzRCcR/view[Slides, role="external", window="_blank"]
 ** icon:youtube[] https://www.youtube.com/watch?v=g9_vKJhnHgI[Session filmée @ *Youtube*, role="external", window="_blank"]
 
+
+[NOTE]
+====
+
+
 Avec l'essor de l'IOT, de plus en plus de personnes sont tentées par la domotique.
+
 Les grandes enseignes s'y mettent, avec plus ou moins de succès.
+
 Notre métier nous permet une plus grand liberté dans ce domaine, encore faut-il ne pas se perdre dans ce qui existe.
+
 Je vous propose un tour d'horizon (non exhaustif) de ce qui se fait, les solutions que j'ai choisies pour mon domicile ainsi que des pistes pour ceux qui souhaitent se lancer.
+
+====
 
 === BrownBagLunch 2014 -> *
 
