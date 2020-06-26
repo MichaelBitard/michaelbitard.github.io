@@ -38,15 +38,6 @@ Social::
 * `@BitardMichael` icon:twitter[link=https://twitter.com/BitardMichael, role="external",window="_blank",alt="@BitardMichael"] icon:github[link=https://github.com/MichaelBitard, role="external",window="_blank"] icon:linkedin[1x,link=https://www.linkedin.com/in/michaelbitard/, role="external",window="_blank"]
 Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
 
-== SARL Michaël Bitard ==
-
-Après quelques années de travail au sein d'Orange Business Services, j'ai crée la société en Février 2014. Par l'intermédiaire de cette dernière, j'interviens auprès de mes clients professionnels afin de les accompagner lors du développement de leurs logiciels.
-L'activité de mon entreprise est sans interruption et soutenue depuis le début de sa création, avec des missions d'accompagnement sur du long terme.
-J'interviens principalement sur du travail en régie, avec facturation au temps passé, chez des clients quasi exclusivement locaux (LivingObject, Viveris, EasyMile). Il m'arrive de réaliser de manière plus ponctuelle des audits de code ou des formations sur certains sujets.
-Je me suis spécialisé autour du développement logiciel de qualité, et l'accompagnement des équipes.
-Mon expertise me permet d'intervenir de manière efficace sur des problématiques R&D assez pointues (Calculs d'optimisation d'itinéraires de véhicules autonomes, Virtualisation de connexions satellites, analyse de la performance des réseaux télécoms, ...)
-
-
 == Expériences professionnelles
 
 === Pubstack
