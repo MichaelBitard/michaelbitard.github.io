@@ -2,3 +2,4 @@ ASCIIDOCTOR = docker run -ti --rm -v "$(shell pwd):/documents/" asciidoctor/dock
 
 generate:
 	@${ASCIIDOCTOR} resume.adoc
+	cp resume.html ../index.html

@@ -46,7 +46,7 @@ Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
 
 === Pubstack
 
-icon:calendar[title="Period"] `Septembre 2019 -> 2020` +
+icon:calendar[title="Period"] `Septembre 2019 -> 2021` +
 icon:group[title="Freelance"] {link-pubstack}[Pubstack, role="external", window="_blank"] - Toulouse +
 __Help publishers thrive in a complex programmatic world__
 
@@ -59,7 +59,8 @@ Dans ce domaine hautement concurrentiel et quasi temps réel, avoir un tiers de 
 
 Intégré au sein de l'équipe, j'essaie d'apporter mon expérience pour que l'on devienne l'équipe la plus efficace et la plus autonome possible, notamment par la mise en place de rituels ( core protocols ) et de pratiques de code ( tests, Pair programming, Boy scout rule,... ).
 
-La problématique R&D de Pubstack se situe autour de l'accés à la donnée (coût/rapidité).
+La problématique R&D de Pubstack se situe autour de l'accès à la donnée (coût/rapidité).
+
 En effet :
 
 - soit on accède rapidement à la donnée, mais cela coûte trop cher pour être rentable
@@ -70,7 +71,7 @@ En effet :
 
 Technologies utilisées::
 
-Vue, Typescript, Go, Git, Linux
+Typescript, Rust, Go, Vue, AWS, Linux
 
 === The Boxoffice Company
 
