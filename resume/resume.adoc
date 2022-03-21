@@ -1,5 +1,6 @@
 = Curriculum Vitae - Michaël Bitard
 Michaël Bitard <bitard.michael@gmail.com>
+:attribute-missing: warn
 :toc2:
 :toclevels: 2
 :icons: font
@@ -32,6 +33,12 @@ Michaël Bitard <bitard.michael@gmail.com>
 :link-orange-business-services: https://www.orange-business.com/
 :link-boxoffice: https://company.boxoffice.com/
 :link-pubstack: https://pubstack.io/
+:link-haystack-bug: https://github.com/deepset-ai/haystack/issues/1229
+:link-haystack: https://project-haystack.org/
+:link-piaf: https://piaf.etalab.studio/
+:link-etalab: https://www.etalab.gouv.fr/
+:link-beta-gouv: https://beta.gouv.fr/
+:link-camino: https://camino.beta.gouv.fr
 
 == Informations personnelles
 
@@ -44,9 +51,55 @@ Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
 
 == Expériences professionnelles
 
+=== Camino
+
+icon:calendar[title="Period"] `Mars 2022 -> *` +
+icon:group[title="Freelance"] {link-camino}[Camino, role="external", window="_blank"] - Paris (remote) +
+__Le cadastre minier numérique ouvert__
+
+
+[NOTE]
+====
+
+Les objectifs de ce projet sont multiples :
+
+* Avoir une vision unifiée de l'histoire minière de la France (cadastre minier)
+* Pouvoir suivre les nouvelles demandes de manière unifiée
+* Simplifier les démarches fiscales
+
+Camino est un projet de {link-beta-gouv}[Beta Gouv] (Incubateur de services publics numériques), il bénéficie d'une approche "startup" au sein de l'état.
+
+====
+
+Technologies utilisées::
+
+Typescript, Vue, Linux
+
+=== Etalab
+
+icon:calendar[title="Period"] `Mai 2021 -> Juillet 2021` +
+icon:group[title="Freelance"] {link-etalab}[Etalab, role="external", window="_blank"] - Paris (remote) +
+__Ouvrir, partager et valoriser les données publiques__
+
+
+[NOTE]
+====
+
+Renfort sur le projet {link-piaf}[PIAF] (Pour des IA Francophones), l'objectif de cette mission courte (1 jour par semaine sur quelques mois) était de simplifier et automatiser le déploiement de la stack en développement.
+
+Il fallait passer d'une demi-journée d'opérations manuelles à un processus automatique quasi instantanné. Challenge réussi grâce à une combinaison de github actions (pour la CI/CD), ainsi que de ansible pour pouvoir déployer le code logiciel dans un environnement dédié.
+
+Un challenge "performances" s'est également présenté car un des composants utilisé ({link-haystack}[Haystack]) ne permettait pas de faire des requêtes parallèles dans {link-haystack-bug}[certaines conditions]. 
+
+====
+
+Technologies utilisées::
+
+Python, Ansible, Linux
+
 === Pubstack
 
-icon:calendar[title="Period"] `Septembre 2019 -> 2021` +
+icon:calendar[title="Period"] `Septembre 2019 -> Mars 2022` +
 icon:group[title="Freelance"] {link-pubstack}[Pubstack, role="external", window="_blank"] - Toulouse +
 __Help publishers thrive in a complex programmatic world__
 
@@ -71,7 +124,7 @@ En effet :
 
 Technologies utilisées::
 
-Typescript, Rust, Go, Vue, AWS, Linux
+Typescript, Rust, Python, Terraform, Vue, AWS, Linux, Go
 
 === The Boxoffice Company
 
