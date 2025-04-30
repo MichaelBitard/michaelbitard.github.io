@@ -18,7 +18,7 @@ Michaël Bitard <bitard.michael@gmail.com>
 :firstname: Michaël
 :lastname: Bitard
 // Refs
-:link-31: https://goo.gl/maps/FhBLqfgD3DR2
+:link-31: https://www.openstreetmap.org/#map=12/43.5994/1.4131
 :link-easymile: http://www.easymile.com/
 :link-oauth2_proxy: https://github.com/bitly/oauth2_proxy
 :link-viveris: https://www.viveris.fr/
@@ -39,6 +39,7 @@ Michaël Bitard <bitard.michael@gmail.com>
 :link-etalab: https://www.etalab.gouv.fr/
 :link-beta-gouv: https://beta.gouv.fr/
 :link-camino: https://camino.beta.gouv.fr
+:link-camino-sources: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/pnm-public/camino
 
 == Informations personnelles
 
@@ -46,7 +47,8 @@ Michaël Bitard <bitard.michael@gmail.com>
 Nom:: Michaël Bitard
 Social::
 * https://michael.bitard.fr/[michael.bitard.fr, role="external", window="_blank"]
-* `@BitardMichael` icon:twitter[link=https://twitter.com/BitardMichael, role="external",window="_blank",alt="@BitardMichael"] icon:github[link=https://github.com/MichaelBitard, role="external",window="_blank"] icon:linkedin[1x,link=https://www.linkedin.com/in/michaelbitard/, role="external",window="_blank"]
+* https://piaille.fr/@BitardMichael[@BitardMichael, role="external",window="_blank",alt="@BitardMichael"]
+* https://github.com/MichaelBitard[https://github.com/MichaelBitard, role="external",window="_blank"]
 Adresse:: {link-31}["Toulouse, 31, FRANCE", role="external", window="_blank"]
 
 == Expériences professionnelles
@@ -75,6 +77,10 @@ Technologies utilisées::
 
 Typescript, Vue, Linux
 
+Sources::
+
+{link-camino-sources}[Les sources de Camino, role="external", window="_blank"]
+
 === Etalab
 
 icon:calendar[title="Period"] `Mai 2021 -> Juillet 2021` +
@@ -89,7 +95,7 @@ Renfort sur le projet {link-piaf}[PIAF] (Pour des IA Francophones), l'objectif d
 
 Il fallait passer d'une demi-journée d'opérations manuelles à un processus automatique quasi instantanné. Challenge réussi grâce à une combinaison de github actions (pour la CI/CD), ainsi que de ansible pour pouvoir déployer le code logiciel dans un environnement dédié.
 
-Un challenge "performances" s'est également présenté car un des composants utilisé ({link-haystack}[Haystack]) ne permettait pas de faire des requêtes parallèles dans {link-haystack-bug}[certaines conditions]. 
+Un challenge "performances" s'est également présenté car un des composants utilisé ({link-haystack}[Haystack]) ne permettait pas de faire des requêtes parallèles dans {link-haystack-bug}[certaines conditions].
 
 ====
 
