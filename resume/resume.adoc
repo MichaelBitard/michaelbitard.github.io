@@ -109,7 +109,7 @@ Afin de garantir une reproductibilité de nos déploiements et de pouvoir réagi
 
 Technologies utilisées::
 
-Terrafor, Kubernetes, Linux
+Terraform, Kubernetes, Linux
 
 === Etalab
 
