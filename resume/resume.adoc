@@ -93,15 +93,15 @@ __Building the European Digital Twin Ocean, Together__
 [NOTE]
 ====
 
-Assistance à la mise en place du projet {link-edito}[Edito infra] (1 jour par semaine).
-
 __La plateforme européenne pour découvrir, visualiser et exploiter les produits et connaissances afin d'alimenter les jumeaux numériques de l'océan__
+
+Assistance à la mise en place du projet {link-edito}[Edito infra] (1 jour par semaine).
 
 Dans un premier temps il a fallu choisir la stack technique répondant au mieux au besoin initial.
 
-La seconde partie du projet a consisté en une aide pour développer le tout.
+La seconde partie de ma mission a consisté en une aide au développement et à la mise en place de cette solution.
 
-Une contrainte forte étant la disponibilité des données sous souveraineté Européenne, nous nous sommes tournés vers de clouds providers "hors GAFAM".
+Une contrainte forte étant la disponibilité des données sous souveraineté Européenne, nous nous sommes tournés vers des clouds providers "hors GAFAM".
 
 Afin de garantir une reproductibilité de nos déploiements et de pouvoir réagir rapidement aux changements, tout a été fait via terraform.
 
