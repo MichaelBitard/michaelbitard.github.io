@@ -1,5 +1,5 @@
 = Curriculum Vitae - Michaël Bitard
-Michaël Bitard <bitard.michael@gmail.com>
+Michaël Bitard <cv_pro@bitard.fr>
 :attribute-missing: warn
 :toc2:
 :toclevels: 2
@@ -40,6 +40,8 @@ Michaël Bitard <bitard.michael@gmail.com>
 :link-beta-gouv: https://beta.gouv.fr/
 :link-camino: https://camino.beta.gouv.fr
 :link-camino-sources: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/pnm-public/camino
+:link-mercator-ocean-international: https://www.mercator-ocean.eu/
+:link-edito: https://dive.edito.eu/
 
 == Informations personnelles
 
@@ -66,7 +68,7 @@ __Le cadastre minier numérique ouvert__
 Les objectifs de ce projet sont multiples :
 
 * Avoir une vision unifiée de l'histoire minière de la France (cadastre minier)
-* Pouvoir suivre les nouvelles demandes de manière unifiée
+* Pouvoir suivre les nouvelles demandes de manière numérique
 * Simplifier les démarches fiscales
 
 Camino est un projet de {link-beta-gouv}[Beta Gouv] (Incubateur de services publics numériques), il bénéficie d'une approche "startup" au sein de l'état.
@@ -75,11 +77,39 @@ Camino est un projet de {link-beta-gouv}[Beta Gouv] (Incubateur de services publ
 
 Technologies utilisées::
 
-Typescript, Vue, Linux
+Typescript, TSX, Node, Linux
 
 Sources::
 
 {link-camino-sources}[Les sources de Camino, role="external", window="_blank"]
+
+=== Mercator Ocean International
+
+icon:calendar[title="Period"] `Décembre 2022 -> *` +
+icon:group[title="Freelance"] {link-mercator-ocean-international}[Mercator Ocean International, role="external", window="_blank"] - Toulouse +
+__Building the European Digital Twin Ocean, Together__
+
+
+[NOTE]
+====
+
+Assistance à la mise en place du projet {link-edito}[Edito infra] (1 jour par semaine).
+
+__La plateforme européenne pour découvrir, visualiser et exploiter les produits et connaissances afin d'alimenter les jumeaux numériques de l'océan__
+
+Dans un premier temps il a fallu choisir la stack technique répondant au mieux au besoin initial.
+
+La seconde partie du projet a consisté en une aide pour développer le tout.
+
+Une contrainte forte étant la disponibilité des données sous souveraineté Européenne, nous nous sommes tournés vers de clouds providers "hors GAFAM".
+
+Afin de garantir une reproductibilité de nos déploiements et de pouvoir réagir rapidement aux changements, tout a été fait via terraform.
+
+====
+
+Technologies utilisées::
+
+Terrafor, Kubernetes, Linux
 
 === Etalab
 
@@ -427,6 +457,6 @@ icon:calendar[title="Period"] `2003-2005` - *DUT Informatique* - _Option génie 
 
 == Centres d'intérêt
 
-* Sport : Squash, Volley
-* Séries TV, Cinéma
+* Sports : Squash, Volley
+* Lecture, Séries TV, Cinéma
 * Domotique, Open source
